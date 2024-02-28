@@ -1,8 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:omonie/src/src.dart';
 
-import 'test.dart';
-
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(

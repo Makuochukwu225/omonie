@@ -36,7 +36,7 @@ class ProviderWidget extends StatelessWidget {
         ),
       ],
       child: KeyboardDismisser(
-         gestures: [GestureType.onTap, GestureType.onPanUpdateDownDirection],
+         gestures: const [GestureType.onTap, GestureType.onPanUpdateDownDirection],
         child: child),
     );
   }

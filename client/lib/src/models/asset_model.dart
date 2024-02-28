@@ -62,7 +62,7 @@ final String? createdAt;
 final String? updatedAt;
 final int? V;
 const Asset({this.id , this.image , this.title , this.type , this.description , this.value , this.createdAt , this.updatedAt , this.V });
-Asset copyWith({String? id, String? image, String? title, dynamic? type, String? description, int? value, String? createdAt, String? updatedAt, int? V}){
+Asset copyWith({String? id, String? image, String? title, dynamic type, String? description, int? value, String? createdAt, String? updatedAt, int? V}){
 return Asset(
             id:id ?? this.id,
 image:image ?? this.image,

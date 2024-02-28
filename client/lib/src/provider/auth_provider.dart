@@ -1,4 +1,3 @@
-import 'dart:developer';
 
 import 'package:omonie/src/src.dart';
 

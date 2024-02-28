@@ -82,10 +82,10 @@ class PaystackProvider extends ChangeNotifier {
   PaymentCard _getCardFromUI() {
     // Using just the must-required parameters.
     return PaymentCard(
-      number: _cardNumber,
-      cvc: _cvv,
-      expiryMonth: _expiryMonth,
-      expiryYear: _expiryYear,
+      cardNumber: _cardNumber,
+      cvv: _cvv,
+      expiryMonth1: _expiryMonth,
+      expiryYear1: _expiryYear,
     );
   }
 

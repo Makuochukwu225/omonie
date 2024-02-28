@@ -1,4 +1,3 @@
-import 'package:omonie/src/screens/omonie_funds/components/enter_amount_widget.dart';
 import 'package:omonie/src/src.dart';
 
 class BuildNairaWidget extends StatefulWidget {
